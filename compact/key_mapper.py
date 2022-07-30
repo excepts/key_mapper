@@ -1,0 +1,1 @@
+import itertools as i,time,keyboard as b;d={};[b.block_key(k)for k in d];[([b.press_and_release(d[k])for k in d if b.is_pressed(k)],time.sleep(0.03))for _ in i.count(start=1)]
